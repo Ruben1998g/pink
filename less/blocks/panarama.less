@@ -1,0 +1,139 @@
+.panarama{
+	display:flex;
+	flex-direction:column;
+}
+
+.phone-z{
+	display:none;
+}
+
+.panarama__p{
+	margin:0 20px;
+	font-family:OpenSans;
+	font-size:14px;
+	line-height:30px;
+	color:#283645;
+	text-align:center;
+	width:225px;
+	display:inline-block;
+	margin:20px auto;
+}
+
+.panarama div div{
+	width:280px;
+	background-color:#f2f2f2;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0px 20px 40px 20px;
+}
+
+.panarama div div h2{
+	font-family:OpenSans;
+	font-weight:bold;
+	font-size:14px;
+	line-height:30px;
+	color:#283645;
+		font-size:14px;
+	line-height:24px;
+}
+.panarama div div{
+	position:relative;
+	top:-4px;
+}
+
+.panarama div div h2 span{
+		font-family:OpenSans;
+	font-weight:light;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:12px;
+	line-height:24px;
+}
+
+.panarama div div p.images__text{
+			font-family:OpenSans;
+	font-weight:400;
+		font-size:14px;
+	line-height:24px;
+	color:#283645;
+	margin:0;
+}
+
+.panarama div div p.images__like{
+	color:#d22856;
+
+			font-family:OpenSans;
+	font-weight:400;
+	text-transform:uppercase;
+	font-size:12px;
+	line-height:24px;
+	margin-left:32px;
+	position:relative;
+}
+.panarama div div p.images__like::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -29px;
+    width: 13px;
+    height: 12px;
+    background-image: url(../img/icon-heart.png);
+}
+
+
+
+@media(min-width:@tablet-width){
+
+.panarama__p{
+	font-family:OpenSans;
+	font-size:18px;
+	line-height:30px;
+	color:#283645;
+	text-align:center;
+	width:500px;
+	display:inline-block;
+	margin:70px auto;
+}
+
+.panarama div div{
+	width:620px;
+	background-color:#f2f2f2;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0px 20px 40px 20px;
+}
+
+.phone-z{
+	display:inline-block;
+	font-family:OpenSans;
+	font-size:18px;
+	line-height:30px;
+	color:#283645;
+	text-align:center;
+	width:100%;
+	margin-bottom:70px;
+
+}
+
+.phone-z span{
+	display:inline-block;
+	width:480px;
+	margin-bottom:;
+}
+
+}
+
+@media(min-width:@desktop-width){
+	
+
+
+.panarama div div{
+	width:900px;
+	background-color:#f2f2f2;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0px 20px 40px 20px;
+	margin-left:150px;
+}
+
+}

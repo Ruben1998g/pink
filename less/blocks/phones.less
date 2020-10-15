@@ -1,0 +1,76 @@
+.phones{
+	padding-left:20px;
+	padding-right:20px;
+	margin-top:10px;
+	padding-bottom:40px;
+}
+
+.phones label{
+	font-family:OpenSans;
+	line-height:30px;
+	font-size:14px;
+	color:#d22856;
+text-transform:uppercase;
+margin-top:25px;
+display:inline-block;
+}
+
+.phones label input{
+	font-family:OpenSans;
+	line-height:30px;
+	font-size:18px;
+	color:#283645;
+	border:2px solid #e5e5e5;
+	padding:15px 20px;
+	width:280px;
+	box-sizing:border-box;
+}
+
+.phones label input::placeholder{
+	font-family:OpenSans;
+	line-height:30px;
+	font-size:18px;
+	color:#283645;
+}
+
+.phones label span{
+padding-left:20px;
+padding-bottom:4px;
+display:inline-block;
+	
+}
+
+@media(min-width:@tablet-width){
+
+.phones br{
+	display:none;
+	}
+.phones label{
+	display:inline-block;
+	width:100%;
+	}
+
+.phones label input{
+	width:100%;
+	display:inline-block;
+	margin-left:10px;
+	box-sizing:border-box;
+	}
+	
+	
+}
+
+@media(min-width:@desktop-width){
+		.phones{
+	margin-left:130px;
+	margin-right:130px;
+}
+
+.phones{
+	display:flex;
+	justify-content:space-between;
+}
+.phones label{
+	width:48%;
+}
+}

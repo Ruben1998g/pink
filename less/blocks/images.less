@@ -1,0 +1,109 @@
+.images ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.images ul li img{
+	margin:0 20px;
+}
+.images ul li div{
+	position:relative;
+	top:-4px;
+}
+
+.images ul li div{
+	width:280px;
+	background-color:#f2f2f2;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0px 20px 40px 20px;
+}
+
+.images ul li div h2{
+	font-family:OpenSans;
+	font-weight:bold;
+	font-size:14px;
+	line-height:30px;
+	color:#283645;
+		font-size:14px;
+	line-height:24px;
+}
+
+.images ul li div h2 span{
+		font-family:OpenSans;
+	font-weight:light;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:12px;
+	line-height:24px;
+}
+
+.images ul li div p.images__text{
+			font-family:OpenSans;
+	font-weight:400;
+		font-size:14px;
+	line-height:24px;
+	color:#283645;
+	margin:0;
+}
+
+.images ul li div p.images__like{
+	color:#d22856;
+
+			font-family:OpenSans;
+	font-weight:400;
+	text-transform:uppercase;
+	font-size:12px;
+	line-height:24px;
+	margin-left:32px;
+	position:relative;
+}
+
+.images ul li div p.images__like::before{
+	content:"";
+	position:absolute;
+	top:5px;
+	left:-29px;
+	width:13px;
+	height:12px;
+	background-image:url("../img/icon-heart.png");
+}
+
+
+@media(min-width:@tablet-width){
+.images ul li div{
+	width:300px;
+}
+
+.images ul{
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 20px;
+	justify-content:space-between;
+}
+.images ul li {
+width:300px;
+	
+}
+
+.images ul li div{
+height:170px !important;
+ margin-left:0;
+ margin-right:0;
+}
+
+.images ul li img {
+    margin: 0 0px;
+}
+
+}
+
+@media(min-width:@desktop-width){
+	.images{
+	margin-left:60px;
+	margin-right:60px;
+}
+
+
+}

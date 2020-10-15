@@ -1,0 +1,446 @@
+.header-page{
+width:320px;	
+margin:0 auto;
+}
+
+.header-page__main-ul{
+	z-index:4;
+	position:relative;
+}
+
+.header-page__header{
+	background-color:#283645;
+}
+
+.header-page__main-ul{
+list-style:none;
+padding:0;
+margin:0;
+	
+}
+
+.header-page__main-ul li{
+	display:flex;
+	width:100%;
+}
+
+.header-page__main-ul li a{
+	color:white;
+	width:100%;
+	text-align:center;
+	text-decoration:none;
+	font-family:OpenSans;
+	font-weight:bold;
+	font-size:18px;
+	line-heihgt:32px;
+	text-transform:uppercase;
+	padding:15px 0;
+	border-top:1px solid #485461;
+	border-bottom:1px solid #000000;
+}
+
+.header-page__main-ul{
+	border-top:1px solid black;
+	display:none;
+}
+.main-nav--open{
+	display:block;
+}
+
+.header-page__first{
+	padding:16px 20px;
+	display:flex;
+}
+
+.header-page__open,
+.header-page__close
+{
+	margin-left:auto;
+}
+
+
+
+.header-page__first--mod{
+	position:absolute;
+	background-color:rgba(0,0,0, 0.3);
+	width:320px;
+	box-sizing:border-box;
+}
+
+.hidden{
+	display:none;
+}
+
+
+.mobile-hidden{
+	display:none;
+}
+
+.header-page__content{
+background-color:#1d2631;
+
+}
+
+.header-page__content a.download{
+text-decoration:none;
+color:white;
+padding:0 20px;
+border:3px solid white;
+font-family:OpenSans;
+line-height:18px;
+font-size:18px;
+font-weight:bold;
+padding:15px;
+margin:0 20px;
+display:block;
+text-align:center;
+border-radius:30px;
+margin-top:25px;
+	
+}
+
+.header-page__content ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	display:flex;
+	padding:0 55px;
+	margin-top:26px;
+	justify-content:space-between;
+}
+
+.header-page__content ul li:not(:first-child){
+position:relative;
+top:6px;
+
+}
+
+.header-page__content p{
+padding:0 44px;
+font-family:OpenSans;
+font-weight:200;
+line-height:24px;
+font-size:14px;
+color:white;
+text-align:center;
+margin-top:22px;
+padding-bottom:35px;
+	
+}
+
+
+
+.header-page__main-ul li a:hover{
+	color:#d22856;
+}
+
+.header-page__main-ul li a:active{
+	color:rgba(255,255,255,0.3);
+}
+
+.current-page{
+	border-bottom:2px solid white;
+	padding-bottom:1px;
+}
+
+.header-page__content a.download:hover{
+	background-color:white;
+	color:#d22856;
+}
+
+
+.header-page__content a.download:active{
+color:rgba(210,40,86, 0.3);
+}
+
+
+.header-page__logo{
+	width:76px;
+	height:24px;
+	background-image:url("../img/logotype-mobile.png");
+	background-repeat:no-repeat;
+}
+
+.header-page__logo:hover{
+	background-image:url("../img/logotype-mobile-hover.png");
+}
+
+.header-page__logo:active{
+	background-image:url("../img/logotype-mobile.png");
+	opacity:0.3;
+}
+
+.header-page__close{
+	height:24px;
+	width:24px;
+	background-image:url("../img/menu-close.png");
+	background-repeat:no-repeat;
+}
+
+.header-page__open{
+	height:24px;
+	width:50px;
+	background-image:url("../img/menu-open.png");
+	background-repeat:no-repeat;
+}
+
+.header-page__close:hover{
+	background-image:url("../img/menu-close-hover.png");
+}
+
+.header-page__close:active{
+	opacity:0.3;
+}
+
+.header-page__open:hover{
+	background-image:url("../img/menu-open-hover.png");
+}
+
+.header-page__open:active{
+opacity:0.3;
+
+}
+
+.form .form__p{
+	font-family:OpenSans;
+	font-size:24px;
+	line-height:36px;
+	font-weight:200;
+	width:230px;
+	position:absolute;
+	bottom:-16px;
+
+}
+
+.photo .form__p{
+	font-family:OpenSans;
+	font-size:24px;
+	line-height:36px;
+	font-weight:200;
+	width:230px;
+	position:absolute;
+	bottom:26px;
+
+}
+.photo .header-page {
+	position:relative;
+}
+
+.form .header-page {
+	position:relative;
+}
+
+
+@media(min-width:@tablet-width){
+
+.header-page{
+	width:660px;
+	position:relative;
+}
+
+.header-page__first--mod{
+	width:660px;
+
+}
+
+
+.header-page__first{
+	padding:26px 20px;
+}
+
+
+.main-content{
+position:absolute;
+bottom:70px;
+width:330px;
+display:block;
+}
+
+.mobile-hidden{
+	display:block;
+	font-size:40px;
+	font-family:OpenSans;
+	color:white;
+	font-weight:200;
+	width:210px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.header-page__content a.download{
+margin-top:40px;
+	
+}
+
+.header-page__content ul{
+
+	margin-top:40px;
+
+}
+
+.main-content p{
+	margin-top:30px;
+}
+
+.header-page__content {
+    background-color:unset;
+
+}
+
+
+.header-page__logo{
+	width:147px;
+	height:40px;
+	background-image:url("../img/logotype-tablet.png");
+	background-repeat:no-repeat;
+}
+
+
+.header-page__logo:hover{
+	background-image:url("../img/logotype-tablet-hover.png");
+	opacity:1;
+}
+
+.header-page__logo:active{
+	background-image:url("../img/logotype-tablet-active.png");
+	opacity:1;
+}
+
+.header-page__open,
+.header-page__close{
+	position:relative;
+	top:9px;
+}
+
+.form .form__p{
+	font-family:OpenSans;
+	font-size:50px;
+	line-height:70px;
+	font-weight:200;
+	width:520px;
+	position:absolute;
+	bottom:2px;
+	left:18px;
+
+}
+
+.photo .form__p{
+	font-family:OpenSans;
+	font-size:50px;
+	line-height:70px;
+	font-weight:200;
+	width:520px;
+	position:absolute;
+	bottom:26px;
+	left:26px;
+
+}
+
+
+
+}
+
+@media(min-width:@desktop-width){
+
+.header-page{
+width:1200px;	
+margin:0 auto;
+}
+
+
+.form .form__p{
+	font-family:OpenSans;
+	font-size:50px;
+	line-height:70px;
+	font-weight:200;
+	width:820px;
+	position:absolute;
+	bottom:2px;
+	left:130px;
+
+}
+
+.photo .form__p{
+	font-family:OpenSans;
+	font-size:50px;
+	line-height:70px;
+	font-weight:200;
+	width:820px;
+	position:absolute;
+	bottom:26px;
+	left:160px;
+
+}
+
+.header-page__main-ul{
+display:flex;
+width:640px;
+margin-left:400px;
+	
+}
+
+.header-page__first {
+    padding: 30px 130px;
+    padding-left:130px;
+}
+
+
+.header-page__first--mod{
+	width:1200px;
+
+}
+
+.header-page__header {
+  background-color:unset;
+  position:absolute;
+  top:0;
+  width:1200px;
+  border:none;
+
+}
+
+.header-page__main-ul li a{
+	color:white;
+	width:100%;
+	text-align:center;
+	text-decoration:none;
+	font-family:OpenSans;
+	font-weight:400;
+	font-size:18px;
+	line-heihgt:18px;
+	text-transform:unset;
+	padding:34px 0;
+	border-top:none;
+	border-bottom:none;
+
+}
+
+.header-page__open{
+	display:none;
+}
+
+.main-content{
+margin-left:110px;
+bottom:50px;
+}
+
+.header-page__content a.download{
+margin-top:50px;
+	
+}
+
+.header-page__content ul{
+
+	margin-top:60px;
+
+}
+
+
+.main-content p{
+	margin-top:30px;
+	font-weight:normal;
+	font-family:OpenSans;
+}
+
+
+}

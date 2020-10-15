@@ -1,0 +1,120 @@
+.contacts__h2{
+font-family:OpenSans;
+line-height:36px;
+color:#283645;
+font-weight:200;
+font-size:24px;
+	text-align:center;
+	margin:0;
+margin-top:30px;
+}
+
+.contacts div h2{
+font-family:OpenSans;
+line-height:36px;
+color:#d22856;
+font-weight:400;
+font-size:24px;
+text-align:center;
+margin:0;
+margin-top:7px;
+z-index:10;
+position:relative;
+	
+}
+
+.contacts div h3{
+
+	font-family:OpenSans;
+line-height:27px;
+color:#283645;
+font-weight:bold;
+font-size:18px;
+text-align:center;
+margin:0;
+margin-top:24px;
+z-index:10;
+position:relative;
+}
+
+.contacts div.last__contacts{
+	position:relative;
+	padding-bottom:0px;
+}
+
+.contacts div.last__contacts::after{
+content:"";
+position:absolute;
+width:320px;
+height:123px;
+bottom:-42px;
+background-image:url("../img/zigzag.png");
+background-repeat:no-repeat;
+
+	
+}
+
+@media(min-width:@tablet-width){
+.contacts{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.contacts div{
+	width:50%;
+	margin:0 auto;
+	margin-top:10px;
+}
+
+.contacts__h2{
+	width:100%;
+	margin:0 auto;
+	width:410px;
+	font-size:40px;
+	line-height:60px;
+	margin-top:38px;
+}
+	
+}
+
+@media(min-width:@desktop-width){
+	
+.contacts div{
+	width:33%;
+	margin:0 auto;
+	margin-top:10px;
+}
+.contacts__h2{
+	order:1;
+}
+
+.div__1{
+	order:2;
+}
+
+.div__2{
+	order:10;
+}
+
+.div__3{
+	order:3;
+}
+
+.contacts picture{
+	order:20;
+}
+
+.contacts__h2{
+	width:900px;
+	margin:0 auto;
+	font-size:50px;
+	line-height:75px;
+	margin-top:60px;
+	
+
+	}
+	.contacts__h2 span{
+	width:640px;
+	display:inline-block;
+	}
+}

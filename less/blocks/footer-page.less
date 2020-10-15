@@ -1,0 +1,157 @@
+.footer-page{
+width:320px;	
+margin:0 auto;
+display:flex;
+box-sizing:border-box;
+
+padding:22px 0px 40px 0px;
+justify-content:space-between;
+flex-direction:column;
+}
+
+
+.footer-page ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	display:flex;
+	width:180px;
+	justify-content:space-between;
+	margin:0 auto;
+	margin-top:30px;
+	
+}
+
+.footer-page__logo{
+	height:40px;
+	display:inline-block;
+	background-image:url("../img/logotype-tablet-footer.png");
+	margin-top:0px;
+		width:147px;
+	box-sizing:border-box;
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
+.footer-page__logo:hover{
+	background-image:url("../img/logotype-tablet-footer-hover.png");
+}
+
+.footer-page__logo:active{
+	background-image:url("../img/logotype-tablet-footer-active.png");
+}
+.footer-page ul li a:active{
+	opacity:0.3;
+}
+
+.footer-page ul li:first-child a{
+	width:52px;
+	height:51px;
+	display:inline-block;
+	background-image:url("../img/tw.png");
+}
+
+.footer-page ul li:nth-child(2) a{
+	width:52px;
+	height:51px;
+	display:inline-block;
+	background-image:url("../img/fb.png");
+}
+
+.footer-page ul li:last-child a{
+	width:52px;
+	height:51px;
+	display:inline-block;
+	background-image:url("../img/yo.png");
+}
+
+.footer-page ul li:first-child a:hover{
+	background-image:url("../img/tw-hover.png");
+}
+
+.footer-page ul li:nth-child(2) a:hover{
+	background-image:url("../img/fb-hover.png");
+}
+
+.footer-page ul li:last-child a:hover{
+	background-image:url("../img/yo-hover.png");
+}
+
+
+.footer-page p{
+	font-family:OpenSans;
+	font-size:14px;
+	line-height:18px;
+	color:#283645;
+	position:relative;
+	padding-right:27+25px;
+	width:147px;
+	box-sizing:border-box;
+	margin:0 auto;
+	margin-top:30px;
+
+}
+
+.footer-page p::after{
+content:"";
+	position:absolute;
+	width:27px;
+	height:34px;
+	top:-5px;
+	right:0;
+
+	background-image:url(../img/htmlacademy.png);
+}
+
+.footer-page p:hover::after{
+	background-image:url(../img/htmlacademy-hover.png);
+}
+
+.footer-page p:hover:active::after{
+	opacity:0.3;
+}
+
+
+
+
+
+@media(min-width:@tablet-width){
+	.footer-page{
+width:660px;	
+margin:0 auto;
+display:flex;
+flex-direction:row;
+padding:36px 20px 50px 20px;
+}
+
+
+.footer-page ul{
+
+	margin:0;
+
+	
+}
+
+.footer-page__logo{
+	margin:0;
+}
+
+.footer-page p{
+	margin:0;
+	margin-top:10px;
+
+}
+
+
+
+}
+
+@media(min-width:@desktop-width){
+	.footer-page{
+width:1200px;	
+margin:0 auto;
+padding-left:110px;
+padding-right:110px;
+}
+	
+}

@@ -1,0 +1,165 @@
+.price div.price-first{
+	background-color:#f2f2f2;
+	padding-top:20px;
+	display:flex;
+	flex-direction:column;
+}
+
+.price div.price-first h3{
+	font-family:OpenSans;
+	text-transform:uppercase;
+	line-height:30px;
+	font-size:16px;
+	color:white;
+	font-weight:bold;
+	margin:0;
+	padding-top:14px;
+	text-align:center;
+}
+
+.price div.price-first{
+	position:relative;
+}
+
+
+
+.price div.price-first::before{
+	position:absolute;
+	content:"";
+	width:74px;
+	height:73px;
+	background-image:url("../img/hit.png");
+	top:20px;
+	left:0;
+}
+
+
+.price div.price-first h2{
+		font-family:OpenSans;
+	text-transform:uppercase;
+	line-height:30px;
+	font-size:24px;
+	color:white;
+	font-weight:200;
+	margin:0;
+	padding-bottom:14px;
+	text-align:center;
+}
+
+.price__header{
+	background-color:#283645;
+
+}
+
+.price__img{
+	margin:35px auto;
+}
+
+.price-first table{
+	border-collapse:collapse;
+}
+
+.price-first table td{
+border-bottom:2px solid #e5e5e5;
+font-family:OpenSans;
+line-height:30px;
+font-size:14px;
+color:#283645;
+text-transform:uppercase;
+padding:15px 39px;
+	
+}
+
+.price-first table tr td:first-child{
+	width:75%;
+}
+
+.price-first table tr td img{
+	padding-top:7px;
+}
+
+@media(max-width:@tablet-width){
+	.tablet-mobile{
+	display:none;
+
+	}
+
+
+}
+
+
+@media(min-width:@tablet-width){
+	.price-first table td{
+	width:25% !important;
+	background-color:white;
+	border:2px solid #e5e5e5;
+}
+.price-first table tr td:first-child{
+	padding:15px 2px 15px 20px;
+}
+
+
+
+.price{
+	box-siziing:border-box;
+	padding:0 20px;
+	background-color:#f2f2f2;
+}
+
+.price__img{
+	display:none;
+}
+
+.price-first{
+	padding-bottom:60px;
+}
+.price__container{
+	display:flex;
+}
+.price__container div{
+	border-right:3px solid #f2f2f2;
+	width:25%;
+	box-sizing:border-box;
+
+}
+
+.price__container{
+	position:relative;
+	left:25%;
+
+}
+
+.price div.price-first::before{
+
+	left:310px;
+	z-index:100;
+}
+
+.price tr td span{
+	display:flex;
+	width:100%;
+}
+
+.price tr td span img{
+	margin:0 auto;
+}
+
+.price tr td:not(:first-child) {
+    padding: 0 !important;
+    margin:auto;
+}
+
+
+
+}
+
+@media(min-width:@desktop-width){
+
+.price div.price-first::before{
+
+	left:580px;
+	z-index:100;
+}
+
+	
+}
